@@ -1,3 +1,6 @@
+# Named Entity Recognition
+# In the example below we have used “token.text, token.entiob, token.enttype” to printed tokens, token’s entity annotations, and the entity types of the token.
+
 import spacy 
 nlp = spacy.load("en_core_web_sm")
 
